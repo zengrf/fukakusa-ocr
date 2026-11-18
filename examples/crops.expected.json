@@ -1,0 +1,302 @@
+[
+ {
+  "image": "examples/crops/U+304B_C0003.jpg",
+  "topk": [
+   {
+    "code": "U+1B01A",
+    "char": "𛀚",
+    "kind": "hentaigana",
+    "sound": "か",
+    "jibo": "可",
+    "name": "Ka-4",
+    "p": 1.0
+   },
+   {
+    "code": "U+308B",
+    "char": "る",
+    "kind": "hiragana",
+    "sound": "る",
+    "jibo": "留",
+    "name": "る",
+    "p": 0.0
+   },
+   {
+    "code": "U+304C",
+    "char": "が",
+    "kind": "hiragana",
+    "sound": "が",
+    "jibo": "",
+    "name": "が",
+    "p": 0.0
+   },
+   {
+    "code": "U+308D",
+    "char": "ろ",
+    "kind": "hiragana",
+    "sound": "ろ",
+    "jibo": "呂",
+    "name": "ろ",
+    "p": 0.0
+   },
+   {
+    "code": "U+4E8B",
+    "char": "事",
+    "kind": "kanji",
+    "sound": null,
+    "jibo": "",
+    "name": "事",
+    "p": 0.0
+   }
+  ]
+ },
+ {
+  "image": "examples/crops/U+304B_C0006.jpg",
+  "topk": [
+   {
+    "code": "U+1B01A",
+    "char": "𛀚",
+    "kind": "hentaigana",
+    "sound": "か",
+    "jibo": "可",
+    "name": "Ka-4",
+    "p": 1.0
+   },
+   {
+    "code": "U+304C",
+    "char": "が",
+    "kind": "hiragana",
+    "sound": "が",
+    "jibo": "",
+    "name": "が",
+    "p": 0.0
+   },
+   {
+    "code": "U+30AF",
+    "char": "ク",
+    "kind": "katakana",
+    "sound": null,
+    "jibo": "",
+    "name": "ク",
+    "p": 0.0
+   },
+   {
+    "code": "U+4E8B",
+    "char": "事",
+    "kind": "kanji",
+    "sound": null,
+    "jibo": "",
+    "name": "事",
+    "p": 0.0
+   },
+   {
+    "code": "U+1B019",
+    "char": "𛀙",
+    "kind": "hentaigana",
+    "sound": "か",
+    "jibo": "可",
+    "name": "Ka-3",
+    "p": 0.0
+   }
+  ]
+ },
+ {
+  "image": "examples/crops/U+304D_C0005.jpg",
+  "topk": [
+   {
+    "code": "U+304D",
+    "char": "き",
+    "kind": "hiragana",
+    "sound": "き",
+    "jibo": "幾",
+    "name": "き",
+    "p": 1.0
+   },
+   {
+    "code": "U+304E",
+    "char": "ぎ",
+    "kind": "hiragana",
+    "sound": "ぎ",
+    "jibo": "",
+    "name": "ぎ",
+    "p": 0.0
+   },
+   {
+    "code": "U+1B02A",
+    "char": "𛀪",
+    "kind": "hentaigana",
+    "sound": "き",
+    "jibo": "起",
+    "name": "Ki-8",
+    "p": 0.0
+   },
+   {
+    "code": "U+907A",
+    "char": "遺",
+    "kind": "kanji",
+    "sound": null,
+    "jibo": "",
+    "name": "遺",
+    "p": 0.0
+   },
+   {
+    "code": "U+1B025",
+    "char": "𛀥",
+    "kind": "hentaigana",
+    "sound": "き",
+    "jibo": "幾",
+    "name": "Ki-3",
+    "p": 0.0
+   }
+  ]
+ },
+ {
+  "image": "examples/crops/U+306A_C0004.jpg",
+  "topk": [
+   {
+    "code": "U+1B082",
+    "char": "𛂂",
+    "kind": "hentaigana",
+    "sound": "な",
+    "jibo": "奈",
+    "name": "Na-5",
+    "p": 0.999972
+   },
+   {
+    "code": "U+1B081",
+    "char": "𛂁",
+    "kind": "hentaigana",
+    "sound": "な",
+    "jibo": "奈",
+    "name": "Na-4",
+    "p": 2.2e-05
+   },
+   {
+    "code": "U+306A",
+    "char": "な",
+    "kind": "hiragana",
+    "sound": "な",
+    "jibo": "奈",
+    "name": "な",
+    "p": 1e-06
+   },
+   {
+    "code": "U+304A",
+    "char": "お",
+    "kind": "hiragana",
+    "sound": "お",
+    "jibo": "於",
+    "name": "お",
+    "p": 1e-06
+   },
+   {
+    "code": "U+1B034",
+    "char": "𛀴",
+    "kind": "hentaigana",
+    "sound": "け",
+    "jibo": "希",
+    "name": "Ke-3",
+    "p": 0.0
+   }
+  ]
+ },
+ {
+  "image": "examples/crops/U+3078_C0001.jpg",
+  "topk": [
+   {
+    "code": "U+3078",
+    "char": "へ",
+    "kind": "hiragana",
+    "sound": "へ",
+    "jibo": "部",
+    "name": "へ",
+    "p": 1.0
+   },
+   {
+    "code": "U+30D8",
+    "char": "ヘ",
+    "kind": "katakana",
+    "sound": null,
+    "jibo": "",
+    "name": "ヘ",
+    "p": 0.0
+   },
+   {
+    "code": "U+1B012",
+    "char": "𛀒",
+    "kind": "hentaigana",
+    "sound": "え",
+    "jibo": "衣",
+    "name": "E-5",
+    "p": 0.0
+   },
+   {
+    "code": "U+3044",
+    "char": "い",
+    "kind": "hiragana",
+    "sound": "い",
+    "jibo": "以",
+    "name": "い",
+    "p": 0.0
+   },
+   {
+    "code": "U+3048",
+    "char": "え",
+    "kind": "hiragana",
+    "sound": "え",
+    "jibo": "衣",
+    "name": "え",
+    "p": 0.0
+   }
+  ]
+ },
+ {
+  "image": "examples/crops/U+6709_C0002.jpg",
+  "topk": [
+   {
+    "code": "U+6709",
+    "char": "有",
+    "kind": "kanji",
+    "sound": null,
+    "jibo": "",
+    "name": "有",
+    "p": 1.0
+   },
+   {
+    "code": "U+80B4",
+    "char": "肴",
+    "kind": "kanji",
+    "sound": null,
+    "jibo": "",
+    "name": "肴",
+    "p": 0.0
+   },
+   {
+    "code": "U+8272",
+    "char": "色",
+    "kind": "kanji",
+    "sound": null,
+    "jibo": "",
+    "name": "色",
+    "p": 0.0
+   },
+   {
+    "code": "U+9053",
+    "char": "道",
+    "kind": "kanji",
+    "sound": null,
+    "jibo": "",
+    "name": "道",
+    "p": 0.0
+   },
+   {
+    "code": "U+304D",
+    "char": "き",
+    "kind": "hiragana",
+    "sound": "き",
+    "jibo": "幾",
+    "name": "き",
+    "p": 0.0
+   }
+  ]
+ }
+]

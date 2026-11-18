@@ -1,0 +1,43 @@
+{
+ "v2": {
+  "shape": [
+   60,
+   4429
+  ],
+  "max_abs_diff_logits": 3.1948089599609375e-05,
+  "mean_abs_diff_logits": 1.9074548023243362e-06,
+  "max_abs_diff_probs": 9.724143498202054e-07,
+  "top1_agree": 60,
+  "top5_set_agree": 60,
+  "top5_order_agree": 60,
+  "n": 60
+ },
+ "v1": {
+  "shape": [
+   60,
+   4438
+  ],
+  "max_abs_diff_logits": 0.0002086162567138672,
+  "mean_abs_diff_logits": 3.4114815198140777e-06,
+  "max_abs_diff_probs": 1.401645874921087e-07,
+  "top1_agree": 60,
+  "top5_set_agree": 60,
+  "top5_order_agree": 60,
+  "n": 60
+ },
+ "v2-epoch24": {
+  "shape": [
+   60,
+   4429
+  ],
+  "max_abs_diff_logits": 0.00011456012725830078,
+  "mean_abs_diff_logits": 2.6059512947540497e-06,
+  "max_abs_diff_probs": 8.940696716308594e-07,
+  "top1_agree": 60,
+  "top5_set_agree": 60,
+  "top5_order_agree": 60,
+  "n": 60,
+  "generated": "2026-11-07",
+  "model_dir": "BigViT/models/v2-epoch24"
+ }
+}

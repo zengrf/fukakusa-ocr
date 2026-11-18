@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use these models, labels or scripts, please cite the JINMONKON 2025 paper and the CODH Kuzushiji dataset."
+title: "Fukakusa OCR: jibo-level recognition of classical Japanese manuscripts"
+type: software
+version: 1.0.0
+date-released: 2026-11-18
+authors:
+  - family-names: Atkins
+    given-names: Paul S.
+    affiliation: University of Washington
+  - family-names: Chau
+    given-names: Herman
+    affiliation: University of Washington
+  - family-names: Zeng
+    given-names: Michael R.
+    affiliation: University of Washington
+repository-code: "https://github.com/zengrf/fukakusa-ocr"
+license: CC-BY-SA-4.0
+preferred-citation:
+  type: conference-paper
+  title: "Deriving Orthographic Data from Classical Japanese Texts with Machine-Learning Methods"
+  authors:
+    - family-names: Chau
+      given-names: Herman
+    - family-names: Zeng
+      given-names: Michael R.
+    - family-names: Atkins
+      given-names: Paul S.
+  collection-title: "JINMONKON 2025 (人文科学とコンピュータシンポジウム), IPSJ SIG Computers and the Humanities"
+  year: 2025
+  url: "https://hdl.handle.net/1773/55355"
+references:
+  - type: article
+    title: "Quantitative Orthographic Analysis of the Ogura Shikishi"
+    authors:
+      - family-names: Atkins
+        given-names: Paul S.
+      - family-names: Zeng
+        given-names: Michael R.
+    journal: "Manuscript Cultures"
+    volume: 26
+    year: 2026
+    doi: 10.15460/s8e93666
+  - type: data
+    title: "Kuzushiji dataset (日本古典籍くずし字データセット)"
+    authors:
+      - name: "Center for Open Data in the Humanities (CODH) / National Institute of Japanese Literature"
+    url: "http://codh.rois.ac.jp/char-shape/"
+    license: CC-BY-SA-4.0

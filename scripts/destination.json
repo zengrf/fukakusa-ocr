@@ -1,0 +1,11 @@
+{
+ "github": "zengrf/fukakusa-ocr",
+ "hf": "zengrf/fukakusa-vit-v2",
+ "tag": "v1.0.0",
+ "values": {
+  "CODE_REPO_URL": "https://github.com/zengrf/fukakusa-ocr",
+  "RELEASE_URL": "https://github.com/zengrf/fukakusa-ocr/releases/tag/v1.0.0",
+  "HF_REPO_ID": "zengrf/fukakusa-vit-v2",
+  "HF_URL": "https://huggingface.co/zengrf/fukakusa-vit-v2"
+ }
+}

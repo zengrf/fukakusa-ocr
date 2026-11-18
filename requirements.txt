@@ -1,0 +1,8 @@
+# Minimum versions; the versions the release was checked with are listed in CHANGELOG.md.
+torch>=2.1
+transformers>=4.40
+safetensors>=0.4
+pillow>=9.0
+numpy>=1.24
+# page reading only:
+ultralytics>=8.2

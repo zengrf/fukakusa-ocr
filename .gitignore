@@ -1,0 +1,9 @@
+# weights and the Hugging Face staging folder are release assets, not repository content
+dist/
+hf/
+*.safetensors
+*.pt
+*.pth
+__pycache__/
+*.egg-info/
+.venv/

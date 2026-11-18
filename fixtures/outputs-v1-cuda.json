@@ -1,0 +1,2486 @@
+{
+ "meta": {
+  "model": "v1",
+  "model_dir": "<project-machine>/FUKAKUSA/BigViT/models/v1",
+  "device": "cuda",
+  "device_name": "Tesla T4",
+  "dtype": "float32",
+  "batch": 16,
+  "n_crops": 60,
+  "num_labels": 4438,
+  "elapsed_s": 0.838,
+  "max_gpu_mem_allocated_mb": 479,
+  "python": "3.8.20",
+  "torch": "2.4.1",
+  "transformers": "4.46.3",
+  "numpy": "1.24.3",
+  "cudnn": 90100,
+  "cudnn_deterministic": false,
+  "preprocessing": "ViTImageProcessor(size=224x224, do_resize=True, resample=BILINEAR(default 2), do_rescale 1/255, do_normalize mean=std=[0.5,0.5,0.5]); PIL convert('RGB'); no cropping, no padding (common.py lines 79-80, 99)",
+  "logit_adjustment": "none in top5; top5_tau0.25 (v2 only) = softmax(logits - 0.25*log(prior)) with <project-machine>/fukakusa-infer/class_prior.json as deployed (FUKAKUSA_VIT_TAU=0.25 in worker.env)",
+  "top1_equals_current_label": 59,
+  "full_logits_file": "logits-v1-cuda.npy"
+ },
+ "results": [
+  {
+   "crop_id": "200021086/200021086_00002_2/C0001",
+   "reference_label": "U+4F0A",
+   "top5": [
+    {
+     "id": 446,
+     "label": "U+4F0A",
+     "label_raw": "U+4F0A",
+     "prob": 0.98971,
+     "logit": 14.215352
+    },
+    {
+     "id": 467,
+     "label": "U+4F53",
+     "label_raw": "U+4F53",
+     "prob": 0.001181,
+     "logit": 7.484116
+    },
+    {
+     "id": 2174,
+     "label": "U+6D44",
+     "label_raw": "U+6D44",
+     "prob": 0.000318,
+     "logit": 6.171809
+    },
+    {
+     "id": 443,
+     "label": "U+4EF6",
+     "label_raw": "U+4EF6",
+     "prob": 0.000232,
+     "logit": 5.856101
+    },
+    {
+     "id": 523,
+     "label": "U+502B",
+     "label_raw": "U+502B",
+     "prob": 0.000172,
+     "logit": 5.555018
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0002",
+   "reference_label": "U+66FD",
+   "top5": [
+    {
+     "id": 1826,
+     "label": "U+66FD",
+     "label_raw": "U+66FD",
+     "prob": 0.995207,
+     "logit": 15.570495
+    },
+    {
+     "id": 2815,
+     "label": "U+7C21",
+     "label_raw": "U+7C21",
+     "prob": 0.00199,
+     "logit": 9.355877
+    },
+    {
+     "id": 2988,
+     "label": "U+7FD2",
+     "label_raw": "U+7FD2",
+     "prob": 0.000635,
+     "logit": 8.213412
+    },
+    {
+     "id": 901,
+     "label": "U+564C",
+     "label_raw": "U+564C",
+     "prob": 0.000306,
+     "logit": 7.48308
+    },
+    {
+     "id": 3239,
+     "label": "U+845B",
+     "label_raw": "U+845B",
+     "prob": 0.000143,
+     "logit": 6.724174
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0003",
+   "reference_label": "U+4FDD",
+   "top5": [
+    {
+     "id": 498,
+     "label": "U+4FDD",
+     "label_raw": "U+4FDD",
+     "prob": 0.9959,
+     "logit": 14.677626
+    },
+    {
+     "id": 1864,
+     "label": "U+6761",
+     "label_raw": "U+6761",
+     "prob": 0.000432,
+     "logit": 6.935572
+    },
+    {
+     "id": 429,
+     "label": "U+4ECF",
+     "label_raw": "U+4ECF",
+     "prob": 0.000265,
+     "logit": 6.445713
+    },
+    {
+     "id": 2202,
+     "label": "U+6DF1",
+     "label_raw": "U+6DF1",
+     "prob": 0.000124,
+     "logit": 5.686409
+    },
+    {
+     "id": 2955,
+     "label": "U+7E70",
+     "label_raw": "U+7E70",
+     "prob": 0.000116,
+     "logit": 5.622041
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0004",
+   "reference_label": "U+7269",
+   "top5": [
+    {
+     "id": 2379,
+     "label": "U+7269",
+     "label_raw": "U+7269",
+     "prob": 0.999999,
+     "logit": 22.69685
+    },
+    {
+     "id": 3508,
+     "label": "U+897F",
+     "label_raw": "U+897F",
+     "prob": 0.0,
+     "logit": 6.562497
+    },
+    {
+     "id": 683,
+     "label": "U+52C5",
+     "label_raw": "U+52C5",
+     "prob": 0.0,
+     "logit": 5.966129
+    },
+    {
+     "id": 95,
+     "label": "U+1B0E5",
+     "label_raw": "U+1B0E5",
+     "prob": 0.0,
+     "logit": 5.880845
+    },
+    {
+     "id": 1899,
+     "label": "U+67DA",
+     "label_raw": "U+67DA",
+     "prob": 0.0,
+     "logit": 5.184008
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0005",
+   "reference_label": "U+8A9E",
+   "top5": [
+    {
+     "id": 3571,
+     "label": "U+8A9E",
+     "label_raw": "U+8A9E",
+     "prob": 0.999305,
+     "logit": 16.743769
+    },
+    {
+     "id": 3714,
+     "label": "U+8DEF",
+     "label_raw": "U+8DEF",
+     "prob": 0.000269,
+     "logit": 8.523008
+    },
+    {
+     "id": 3557,
+     "label": "U+8A70",
+     "label_raw": "U+8A70",
+     "prob": 4.8e-05,
+     "logit": 6.80686
+    },
+    {
+     "id": 2069,
+     "label": "U+6B4C",
+     "label_raw": "U+6B4C",
+     "prob": 4.2e-05,
+     "logit": 6.675887
+    },
+    {
+     "id": 3596,
+     "label": "U+8AE7",
+     "label_raw": "U+8AE7",
+     "prob": 3.3e-05,
+     "logit": 6.433566
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0006",
+   "reference_label": "U+4E2D",
+   "top5": [
+    {
+     "id": 376,
+     "label": "U+4E2D",
+     "label_raw": "U+4E2D",
+     "prob": 0.999993,
+     "logit": 21.736515
+    },
+    {
+     "id": 2481,
+     "label": "U+7533",
+     "label_raw": "U+7533",
+     "prob": 4e-06,
+     "logit": 9.231779
+    },
+    {
+     "id": 91,
+     "label": "U+1B0DD",
+     "label_raw": "U+1B0DD",
+     "prob": 0.0,
+     "logit": 6.777375
+    },
+    {
+     "id": 2480,
+     "label": "U+7532",
+     "label_raw": "U+7532",
+     "prob": 0.0,
+     "logit": 5.825655
+    },
+    {
+     "id": 1274,
+     "label": "U+5DFE",
+     "label_raw": "U+5DFE",
+     "prob": 0.0,
+     "logit": 5.715001
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0007",
+   "reference_label": "U+76EE",
+   "top5": [
+    {
+     "id": 2573,
+     "label": "U+76EE",
+     "label_raw": "U+76EE",
+     "prob": 0.99989,
+     "logit": 18.037315
+    },
+    {
+     "id": 3099,
+     "label": "U+81EA",
+     "label_raw": "U+81EA",
+     "prob": 1.9e-05,
+     "logit": 7.165727
+    },
+    {
+     "id": 1353,
+     "label": "U+5F15",
+     "label_raw": "U+5F15",
+     "prob": 1.3e-05,
+     "logit": 6.781921
+    },
+    {
+     "id": 816,
+     "label": "U+5468",
+     "label_raw": "U+5468",
+     "prob": 1.2e-05,
+     "logit": 6.747032
+    },
+    {
+     "id": 1829,
+     "label": "U+6708",
+     "label_raw": "U+6708",
+     "prob": 7e-06,
+     "logit": 6.179924
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0008",
+   "reference_label": "U+9332",
+   "top5": [
+    {
+     "id": 3935,
+     "label": "U+9332",
+     "label_raw": "U+9332",
+     "prob": 0.981446,
+     "logit": 13.063038
+    },
+    {
+     "id": 4154,
+     "label": "U+9905",
+     "label_raw": "U+9905",
+     "prob": 0.001644,
+     "logit": 6.671314
+    },
+    {
+     "id": 2645,
+     "label": "U+792B",
+     "label_raw": "U+792B",
+     "prob": 0.001386,
+     "logit": 6.500744
+    },
+    {
+     "id": 2859,
+     "label": "U+7CF8",
+     "label_raw": "U+7CF8",
+     "prob": 0.000838,
+     "logit": 5.996692
+    },
+    {
+     "id": 3912,
+     "label": "U+9262",
+     "label_raw": "U+9262",
+     "prob": 0.000658,
+     "logit": 5.755717
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0009",
+   "reference_label": "U+7B2C",
+   "top5": [
+    {
+     "id": 2760,
+     "label": "U+7B2C",
+     "label_raw": "U+7B2C",
+     "prob": 0.998839,
+     "logit": 18.427822
+    },
+    {
+     "id": 1357,
+     "label": "U+5F1F",
+     "label_raw": "U+5F1F",
+     "prob": 0.001078,
+     "logit": 11.59596
+    },
+    {
+     "id": 1862,
+     "label": "U+675F",
+     "label_raw": "U+675F",
+     "prob": 9e-06,
+     "logit": 6.813695
+    },
+    {
+     "id": 1562,
+     "label": "U+624D",
+     "label_raw": "U+624D",
+     "prob": 4e-06,
+     "logit": 6.073614
+    },
+    {
+     "id": 3737,
+     "label": "U+8EAB",
+     "label_raw": "U+8EAB",
+     "prob": 2e-06,
+     "logit": 5.341783
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0010",
+   "reference_label": "U+4E00",
+   "top5": [
+    {
+     "id": 356,
+     "label": "U+4E00",
+     "label_raw": "U+4E00",
+     "prob": 0.999999,
+     "logit": 21.924774
+    },
+    {
+     "id": 211,
+     "label": "U+3078",
+     "label_raw": "U+3078",
+     "prob": 0.0,
+     "logit": 6.91371
+    },
+    {
+     "id": 136,
+     "label": "U+25B2",
+     "label_raw": "U+25B2",
+     "prob": 0.0,
+     "logit": 5.693556
+    },
+    {
+     "id": 714,
+     "label": "U+5341",
+     "label_raw": "U+5341",
+     "prob": 0.0,
+     "logit": 5.466874
+    },
+    {
+     "id": 403,
+     "label": "U+4E8C",
+     "label_raw": "U+4E8C",
+     "prob": 0.0,
+     "logit": 5.147165
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0011",
+   "reference_label": "U+3044",
+   "top5": [
+    {
+     "id": 162,
+     "label": "U+3044",
+     "label_raw": "U+3044",
+     "prob": 0.999999,
+     "logit": 22.114563
+    },
+    {
+     "id": 283,
+     "label": "U+30CF",
+     "label_raw": "U+30CF",
+     "prob": 0.0,
+     "logit": 5.31132
+    },
+    {
+     "id": 205,
+     "label": "U+3072",
+     "label_raw": "U+3072",
+     "prob": 0.0,
+     "logit": 4.951586
+    },
+    {
+     "id": 174,
+     "label": "U+3053",
+     "label_raw": "U+3053",
+     "prob": 0.0,
+     "logit": 4.613126
+    },
+    {
+     "id": 310,
+     "label": "U+30EC",
+     "label_raw": "U+30EC",
+     "prob": 0.0,
+     "logit": 4.569408
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0012",
+   "reference_label": "U+305D",
+   "top5": [
+    {
+     "id": 184,
+     "label": "U+305D",
+     "label_raw": "U+305D",
+     "prob": 0.999987,
+     "logit": 22.472385
+    },
+    {
+     "id": 185,
+     "label": "U+305E",
+     "label_raw": "U+305E",
+     "prob": 1.3e-05,
+     "logit": 11.209152
+    },
+    {
+     "id": 254,
+     "label": "U+30B1",
+     "label_raw": "U+30B1",
+     "prob": 0.0,
+     "logit": 5.771944
+    },
+    {
+     "id": 70,
+     "label": "U+1B0A6",
+     "label_raw": "U+1B0A6",
+     "prob": 0.0,
+     "logit": 5.434641
+    },
+    {
+     "id": 186,
+     "label": "U+305F",
+     "label_raw": "U+305F",
+     "prob": 0.0,
+     "logit": 4.783782
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0013",
+   "reference_label": "U+1B0C0",
+   "top5": [
+    {
+     "id": 77,
+     "label": "U+1B0C0",
+     "label_raw": "U+1B0C0",
+     "prob": 0.999922,
+     "logit": 19.730562
+    },
+    {
+     "id": 197,
+     "label": "U+306A",
+     "label_raw": "U+306A",
+     "prob": 6.2e-05,
+     "logit": 10.036679
+    },
+    {
+     "id": 215,
+     "label": "U+307C",
+     "label_raw": "U+307C",
+     "prob": 1e-06,
+     "logit": 6.25848
+    },
+    {
+     "id": 1007,
+     "label": "U+5916",
+     "label_raw": "U+5916",
+     "prob": 1e-06,
+     "logit": 6.237195
+    },
+    {
+     "id": 11,
+     "label": "U+1B015",
+     "label_raw": "U+1B015",
+     "prob": 1e-06,
+     "logit": 5.710926
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0014",
+   "reference_label": "U+5B50",
+   "top5": [
+    {
+     "id": 1112,
+     "label": "U+5B50",
+     "label_raw": "U+5B50",
+     "prob": 0.99996,
+     "logit": 18.997274
+    },
+    {
+     "id": 281,
+     "label": "U+30CD",
+     "label_raw": "U+30CD",
+     "prob": 2e-06,
+     "logit": 6.039986
+    },
+    {
+     "id": 408,
+     "label": "U+4E94",
+     "label_raw": "U+4E94",
+     "prob": 2e-06,
+     "logit": 5.611688
+    },
+    {
+     "id": 715,
+     "label": "U+5343",
+     "label_raw": "U+5343",
+     "prob": 1e-06,
+     "logit": 5.31558
+    },
+    {
+     "id": 1116,
+     "label": "U+5B57",
+     "label_raw": "U+5B57",
+     "prob": 1e-06,
+     "logit": 5.217703
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0015",
+   "reference_label": "U+606F",
+   "top5": [
+    {
+     "id": 1450,
+     "label": "U+606F",
+     "label_raw": "U+606F",
+     "prob": 0.996523,
+     "logit": 16.095911
+    },
+    {
+     "id": 2471,
+     "label": "U+751A",
+     "label_raw": "U+751A",
+     "prob": 0.001086,
+     "logit": 9.273781
+    },
+    {
+     "id": 1447,
+     "label": "U+6069",
+     "label_raw": "U+6069",
+     "prob": 0.000685,
+     "logit": 8.812598
+    },
+    {
+     "id": 1005,
+     "label": "U+590F",
+     "label_raw": "U+590F",
+     "prob": 0.000486,
+     "logit": 8.469177
+    },
+    {
+     "id": 4325,
+     "label": "U+9CE5",
+     "label_raw": "U+9CE5",
+     "prob": 0.00019,
+     "logit": 7.531493
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0016",
+   "reference_label": "U+1B08C",
+   "top5": [
+    {
+     "id": 56,
+     "label": "U+1B08C",
+     "label_raw": "U+1B08C",
+     "prob": 1.0,
+     "logit": 24.570124
+    },
+    {
+     "id": 112,
+     "label": "U+1B10C",
+     "label_raw": "U+1B10C",
+     "prob": 0.0,
+     "logit": 6.889766
+    },
+    {
+     "id": 57,
+     "label": "U+1B08D",
+     "label_raw": "U+1B08D",
+     "prob": 0.0,
+     "logit": 6.1433
+    },
+    {
+     "id": 111,
+     "label": "U+1B10B",
+     "label_raw": "U+1B10B",
+     "prob": 0.0,
+     "logit": 5.874104
+    },
+    {
+     "id": 2428,
+     "label": "U+738B",
+     "label_raw": "U+738B",
+     "prob": 0.0,
+     "logit": 5.699334
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0017",
+   "reference_label": "U+3044",
+   "top5": [
+    {
+     "id": 162,
+     "label": "U+3044",
+     "label_raw": "U+3044",
+     "prob": 0.999994,
+     "logit": 21.096998
+    },
+    {
+     "id": 1406,
+     "label": "U+5FC3",
+     "label_raw": "U+5FC3",
+     "prob": 3e-06,
+     "logit": 8.284578
+    },
+    {
+     "id": 138,
+     "label": "U+25CB",
+     "label_raw": "U+25CB",
+     "prob": 0.0,
+     "logit": 6.323745
+    },
+    {
+     "id": 205,
+     "label": "U+3072",
+     "label_raw": "U+3072",
+     "prob": 0.0,
+     "logit": 6.223199
+    },
+    {
+     "id": 201,
+     "label": "U+306E",
+     "label_raw": "U+306E",
+     "prob": 0.0,
+     "logit": 4.693001
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0018",
+   "reference_label": "U+1B037",
+   "top5": [
+    {
+     "id": 24,
+     "label": "U+1B037",
+     "label_raw": "U+1B037",
+     "prob": 0.993245,
+     "logit": 15.398132
+    },
+    {
+     "id": 21,
+     "label": "U+1B033",
+     "label_raw": "U+1B033",
+     "prob": 0.003031,
+     "logit": 9.606109
+    },
+    {
+     "id": 3829,
+     "label": "U+9063",
+     "label_raw": "U+9063",
+     "prob": 0.002107,
+     "logit": 9.242571
+    },
+    {
+     "id": 35,
+     "label": "U+1B052",
+     "label_raw": "U+1B052",
+     "prob": 0.000531,
+     "logit": 7.864465
+    },
+    {
+     "id": 3838,
+     "label": "U+907A",
+     "label_raw": "U+907A",
+     "prob": 0.00018,
+     "logit": 6.784389
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0019",
+   "reference_label": "U+3093",
+   "top5": [
+    {
+     "id": 237,
+     "label": "U+3093",
+     "label_raw": "U+3093",
+     "prob": 0.999992,
+     "logit": 21.524385
+    },
+    {
+     "id": 219,
+     "label": "U+3080",
+     "label_raw": "U+3080",
+     "prob": 6e-06,
+     "logit": 9.501327
+    },
+    {
+     "id": 231,
+     "label": "U+308C",
+     "label_raw": "U+308C",
+     "prob": 1e-06,
+     "logit": 7.317603
+    },
+    {
+     "id": 108,
+     "label": "U+1B100",
+     "label_raw": "U+1B100",
+     "prob": 0.0,
+     "logit": 4.78878
+    },
+    {
+     "id": 70,
+     "label": "U+1B0A6",
+     "label_raw": "U+1B0A6",
+     "prob": 0.0,
+     "logit": 4.733005
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0020",
+   "reference_label": "U+1B09C",
+   "top5": [
+    {
+     "id": 66,
+     "label": "U+1B09C",
+     "label_raw": "U+1B09C",
+     "prob": 0.999997,
+     "logit": 21.672192
+    },
+    {
+     "id": 436,
+     "label": "U+4EE3",
+     "label_raw": "U+4EE3",
+     "prob": 0.0,
+     "logit": 5.594789
+    },
+    {
+     "id": 26,
+     "label": "U+1B03E",
+     "label_raw": "U+1B03E",
+     "prob": 0.0,
+     "logit": 5.497883
+    },
+    {
+     "id": 45,
+     "label": "U+1B06D",
+     "label_raw": "U+1B06D",
+     "prob": 0.0,
+     "logit": 4.822901
+    },
+    {
+     "id": 218,
+     "label": "U+307F",
+     "label_raw": "U+307F",
+     "prob": 0.0,
+     "logit": 4.820456
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0021",
+   "reference_label": "U+4E8B",
+   "top5": [
+    {
+     "id": 402,
+     "label": "U+4E8B",
+     "label_raw": "U+4E8B",
+     "prob": 0.999983,
+     "logit": 20.681879
+    },
+    {
+     "id": 51,
+     "label": "U+1B082",
+     "label_raw": "U+1B082",
+     "prob": 8e-06,
+     "logit": 8.881929
+    },
+    {
+     "id": 365,
+     "label": "U+4E0E",
+     "label_raw": "U+4E0E",
+     "prob": 0.0,
+     "logit": 5.370929
+    },
+    {
+     "id": 3004,
+     "label": "U+800C",
+     "label_raw": "U+800C",
+     "prob": 0.0,
+     "logit": 5.313721
+    },
+    {
+     "id": 230,
+     "label": "U+308B",
+     "label_raw": "U+308B",
+     "prob": 0.0,
+     "logit": 5.236392
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0022",
+   "reference_label": "U+7B2C",
+   "top5": [
+    {
+     "id": 2760,
+     "label": "U+7B2C",
+     "label_raw": "U+7B2C",
+     "prob": 0.998255,
+     "logit": 18.20104
+    },
+    {
+     "id": 1357,
+     "label": "U+5F1F",
+     "label_raw": "U+5F1F",
+     "prob": 0.001622,
+     "logit": 11.778489
+    },
+    {
+     "id": 1862,
+     "label": "U+675F",
+     "label_raw": "U+675F",
+     "prob": 3.6e-05,
+     "logit": 7.982172
+    },
+    {
+     "id": 3172,
+     "label": "U+8305",
+     "label_raw": "U+8305",
+     "prob": 3e-06,
+     "logit": 5.431089
+    },
+    {
+     "id": 376,
+     "label": "U+4E2D",
+     "label_raw": "U+4E2D",
+     "prob": 2e-06,
+     "logit": 5.178253
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0023",
+   "reference_label": "U+4E8C",
+   "top5": [
+    {
+     "id": 403,
+     "label": "U+4E8C",
+     "label_raw": "U+4E8C",
+     "prob": 0.999963,
+     "logit": 19.442511
+    },
+    {
+     "id": 279,
+     "label": "U+30CB",
+     "label_raw": "U+30CB",
+     "prob": 2.3e-05,
+     "logit": 8.763045
+    },
+    {
+     "id": 356,
+     "label": "U+4E00",
+     "label_raw": "U+4E00",
+     "prob": 1e-06,
+     "logit": 5.344899
+    },
+    {
+     "id": 283,
+     "label": "U+30CF",
+     "label_raw": "U+30CF",
+     "prob": 0.0,
+     "logit": 4.92052
+    },
+    {
+     "id": 1556,
+     "label": "U+6240",
+     "label_raw": "U+6240",
+     "prob": 0.0,
+     "logit": 4.615105
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0024",
+   "reference_label": "U+3048",
+   "top5": [
+    {
+     "id": 164,
+     "label": "U+3048",
+     "label_raw": "U+3048",
+     "prob": 0.999637,
+     "logit": 19.214064
+    },
+    {
+     "id": 575,
+     "label": "U+5143",
+     "label_raw": "U+5143",
+     "prob": 0.000331,
+     "logit": 11.199954
+    },
+    {
+     "id": 3516,
+     "label": "U+899A",
+     "label_raw": "U+899A",
+     "prob": 5e-06,
+     "logit": 6.903261
+    },
+    {
+     "id": 386,
+     "label": "U+4E4B",
+     "label_raw": "U+4E4B",
+     "prob": 4e-06,
+     "logit": 6.770856
+    },
+    {
+     "id": 9,
+     "label": "U+1B012",
+     "label_raw": "U+1B012",
+     "prob": 4e-06,
+     "logit": 6.768329
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0025",
+   "reference_label": "U+1B048",
+   "top5": [
+    {
+     "id": 29,
+     "label": "U+1B048",
+     "label_raw": "U+1B048",
+     "prob": 0.999984,
+     "logit": 20.035629
+    },
+    {
+     "id": 179,
+     "label": "U+3058",
+     "label_raw": "U+3058",
+     "prob": 3e-06,
+     "logit": 7.463294
+    },
+    {
+     "id": 1410,
+     "label": "U+5FD7",
+     "label_raw": "U+5FD7",
+     "prob": 3e-06,
+     "logit": 7.429133
+    },
+    {
+     "id": 1411,
+     "label": "U+5FD8",
+     "label_raw": "U+5FD8",
+     "prob": 2e-06,
+     "logit": 6.734334
+    },
+    {
+     "id": 67,
+     "label": "U+1B09D",
+     "label_raw": "U+1B09D",
+     "prob": 1e-06,
+     "logit": 5.856058
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0026",
+   "reference_label": "U+1B069",
+   "top5": [
+    {
+     "id": 42,
+     "label": "U+1B069",
+     "label_raw": "U+1B069",
+     "prob": 0.999825,
+     "logit": 18.046888
+    },
+    {
+     "id": 3445,
+     "label": "U+884C",
+     "label_raw": "U+884C",
+     "prob": 0.000112,
+     "logit": 8.94913
+    },
+    {
+     "id": 192,
+     "label": "U+3065",
+     "label_raw": "U+3065",
+     "prob": 7e-06,
+     "logit": 6.208982
+    },
+    {
+     "id": 190,
+     "label": "U+3063",
+     "label_raw": "U+3063",
+     "prob": 7e-06,
+     "logit": 6.185189
+    },
+    {
+     "id": 191,
+     "label": "U+3064",
+     "label_raw": "U+3064",
+     "prob": 2e-06,
+     "logit": 4.786231
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0027",
+   "reference_label": "U+3068",
+   "top5": [
+    {
+     "id": 195,
+     "label": "U+3068",
+     "label_raw": "U+3068",
+     "prob": 0.999998,
+     "logit": 22.5504
+    },
+    {
+     "id": 196,
+     "label": "U+3069",
+     "label_raw": "U+3069",
+     "prob": 1e-06,
+     "logit": 8.31414
+    },
+    {
+     "id": 48,
+     "label": "U+1B07B",
+     "label_raw": "U+1B07B",
+     "prob": 0.0,
+     "logit": 6.748806
+    },
+    {
+     "id": 88,
+     "label": "U+1B0D9",
+     "label_raw": "U+1B0D9",
+     "prob": 0.0,
+     "logit": 6.400087
+    },
+    {
+     "id": 1823,
+     "label": "U+66F8",
+     "label_raw": "U+66F8",
+     "prob": 0.0,
+     "logit": 5.57377
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0028",
+   "reference_label": "U+306E",
+   "top5": [
+    {
+     "id": 201,
+     "label": "U+306E",
+     "label_raw": "U+306E",
+     "prob": 0.999998,
+     "logit": 21.77886
+    },
+    {
+     "id": 14,
+     "label": "U+1B01A",
+     "label_raw": "U+1B01A",
+     "prob": 0.0,
+     "logit": 5.511811
+    },
+    {
+     "id": 225,
+     "label": "U+3086",
+     "label_raw": "U+3086",
+     "prob": 0.0,
+     "logit": 5.266587
+    },
+    {
+     "id": 13,
+     "label": "U+1B019",
+     "label_raw": "U+1B019",
+     "prob": 0.0,
+     "logit": 5.216862
+    },
+    {
+     "id": 89,
+     "label": "U+1B0DA",
+     "label_raw": "U+1B0DA",
+     "prob": 0.0,
+     "logit": 4.643466
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0029",
+   "reference_label": "U+5E1D",
+   "top5": [
+    {
+     "id": 1282,
+     "label": "U+5E1D",
+     "label_raw": "U+5E1D",
+     "prob": 0.998156,
+     "logit": 16.140606
+    },
+    {
+     "id": 1278,
+     "label": "U+5E0C",
+     "label_raw": "U+5E0C",
+     "prob": 0.000421,
+     "logit": 8.368831
+    },
+    {
+     "id": 2795,
+     "label": "U+7BC0",
+     "label_raw": "U+7BC0",
+     "prob": 0.000217,
+     "logit": 7.708435
+    },
+    {
+     "id": 2784,
+     "label": "U+7B92",
+     "label_raw": "U+7B92",
+     "prob": 0.000126,
+     "logit": 7.160513
+    },
+    {
+     "id": 3852,
+     "label": "U+90CE",
+     "label_raw": "U+90CE",
+     "prob": 0.000122,
+     "logit": 7.133813
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0030",
+   "reference_label": "U+738B",
+   "top5": [
+    {
+     "id": 2428,
+     "label": "U+738B",
+     "label_raw": "U+738B",
+     "prob": 0.999893,
+     "logit": 18.602171
+    },
+    {
+     "id": 408,
+     "label": "U+4E94",
+     "label_raw": "U+4E94",
+     "prob": 3.4e-05,
+     "logit": 8.298628
+    },
+    {
+     "id": 381,
+     "label": "U+4E3B",
+     "label_raw": "U+4E3B",
+     "prob": 1.4e-05,
+     "logit": 7.459006
+    },
+    {
+     "id": 2427,
+     "label": "U+7389",
+     "label_raw": "U+7389",
+     "prob": 6e-06,
+     "logit": 6.619009
+    },
+    {
+     "id": 313,
+     "label": "U+30F1",
+     "label_raw": "U+30F1",
+     "prob": 6e-06,
+     "logit": 6.609041
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0031",
+   "reference_label": "U+3088",
+   "top5": [
+    {
+     "id": 227,
+     "label": "U+3088",
+     "label_raw": "U+3088",
+     "prob": 1.0,
+     "logit": 24.652134
+    },
+    {
+     "id": 362,
+     "label": "U+4E0A",
+     "label_raw": "U+4E0A",
+     "prob": 0.0,
+     "logit": 6.078003
+    },
+    {
+     "id": 56,
+     "label": "U+1B08C",
+     "label_raw": "U+1B08C",
+     "prob": 0.0,
+     "logit": 5.19853
+    },
+    {
+     "id": 79,
+     "label": "U+1B0C4",
+     "label_raw": "U+1B0C4",
+     "prob": 0.0,
+     "logit": 4.611123
+    },
+    {
+     "id": 230,
+     "label": "U+308B",
+     "label_raw": "U+308B",
+     "prob": 0.0,
+     "logit": 4.23967
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0032",
+   "reference_label": "U+308A",
+   "top5": [
+    {
+     "id": 229,
+     "label": "U+308A",
+     "label_raw": "U+308A",
+     "prob": 0.999996,
+     "logit": 21.421719
+    },
+    {
+     "id": 100,
+     "label": "U+1B0F6",
+     "label_raw": "U+1B0F6",
+     "prob": 1e-06,
+     "logit": 7.470507
+    },
+    {
+     "id": 110,
+     "label": "U+1B10A",
+     "label_raw": "U+1B10A",
+     "prob": 0.0,
+     "logit": 5.018819
+    },
+    {
+     "id": 188,
+     "label": "U+3061",
+     "label_raw": "U+3061",
+     "prob": 0.0,
+     "logit": 4.17892
+    },
+    {
+     "id": 104,
+     "label": "U+1B0FB",
+     "label_raw": "U+1B0FB",
+     "prob": 0.0,
+     "logit": 4.145569
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0033",
+   "reference_label": "U+4E0D",
+   "top5": [
+    {
+     "id": 364,
+     "label": "U+4E0D",
+     "label_raw": "U+4E0D",
+     "prob": 0.999591,
+     "logit": 16.50423
+    },
+    {
+     "id": 11,
+     "label": "U+1B015",
+     "label_raw": "U+1B015",
+     "prob": 7.4e-05,
+     "logit": 6.997708
+    },
+    {
+     "id": 1013,
+     "label": "U+5927",
+     "label_raw": "U+5927",
+     "prob": 2.7e-05,
+     "logit": 5.980319
+    },
+    {
+     "id": 208,
+     "label": "U+3075",
+     "label_raw": "U+3075",
+     "prob": 2.5e-05,
+     "logit": 5.891286
+    },
+    {
+     "id": 744,
+     "label": "U+539F",
+     "label_raw": "U+539F",
+     "prob": 1.5e-05,
+     "logit": 5.371705
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0034",
+   "reference_label": "U+5BE9",
+   "top5": [
+    {
+     "id": 1176,
+     "label": "U+5BE9",
+     "label_raw": "U+5BE9",
+     "prob": 0.971472,
+     "logit": 12.904446
+    },
+    {
+     "id": 2798,
+     "label": "U+7BC7",
+     "label_raw": "U+7BC7",
+     "prob": 0.00126,
+     "logit": 6.256991
+    },
+    {
+     "id": 1810,
+     "label": "U+66AE",
+     "label_raw": "U+66AE",
+     "prob": 0.000955,
+     "logit": 5.979253
+    },
+    {
+     "id": 4331,
+     "label": "U+9CF6",
+     "label_raw": "U+9CF6",
+     "prob": 0.000907,
+     "logit": 5.927487
+    },
+    {
+     "id": 2498,
+     "label": "U+756A",
+     "label_raw": "U+756A",
+     "prob": 0.000848,
+     "logit": 5.860173
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0035",
+   "reference_label": "U+8FD4",
+   "top5": [
+    {
+     "id": 3782,
+     "label": "U+8FD4",
+     "label_raw": "U+8FD4",
+     "prob": 0.990193,
+     "logit": 16.797897
+    },
+    {
+     "id": 3804,
+     "label": "U+901A",
+     "label_raw": "U+901A",
+     "prob": 0.00921,
+     "logit": 12.120291
+    },
+    {
+     "id": 368,
+     "label": "U+4E16",
+     "label_raw": "U+4E16",
+     "prob": 0.000103,
+     "logit": 7.627421
+    },
+    {
+     "id": 3777,
+     "label": "U+8FBC",
+     "label_raw": "U+8FBC",
+     "prob": 4.7e-05,
+     "logit": 6.833427
+    },
+    {
+     "id": 1466,
+     "label": "U+60AA",
+     "label_raw": "U+60AA",
+     "prob": 4.6e-05,
+     "logit": 6.812078
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0036",
+   "reference_label": "U+7B54",
+   "top5": [
+    {
+     "id": 2773,
+     "label": "U+7B54",
+     "label_raw": "U+7B54",
+     "prob": 0.997861,
+     "logit": 16.489328
+    },
+    {
+     "id": 3628,
+     "label": "U+8C37",
+     "label_raw": "U+8C37",
+     "prob": 0.000883,
+     "logit": 9.458933
+    },
+    {
+     "id": 3160,
+     "label": "U+82E5",
+     "label_raw": "U+82E5",
+     "prob": 0.000207,
+     "logit": 8.008656
+    },
+    {
+     "id": 2795,
+     "label": "U+7BC0",
+     "label_raw": "U+7BC0",
+     "prob": 0.000174,
+     "logit": 7.83463
+    },
+    {
+     "id": 1144,
+     "label": "U+5BA2",
+     "label_raw": "U+5BA2",
+     "prob": 0.000114,
+     "logit": 7.412861
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0037",
+   "reference_label": "U+1B099",
+   "top5": [
+    {
+     "id": 63,
+     "label": "U+1B099",
+     "label_raw": "U+1B099",
+     "prob": 0.998602,
+     "logit": 15.113863
+    },
+    {
+     "id": 386,
+     "label": "U+4E4B",
+     "label_raw": "U+4E4B",
+     "prob": 0.000201,
+     "logit": 6.600839
+    },
+    {
+     "id": 589,
+     "label": "U+5165",
+     "label_raw": "U+5165",
+     "prob": 0.000106,
+     "logit": 5.966396
+    },
+    {
+     "id": 408,
+     "label": "U+4E94",
+     "label_raw": "U+4E94",
+     "prob": 7.6e-05,
+     "logit": 5.629532
+    },
+    {
+     "id": 381,
+     "label": "U+4E3B",
+     "label_raw": "U+4E3B",
+     "prob": 5.6e-05,
+     "logit": 5.331248
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0038",
+   "reference_label": "U+4E8B",
+   "top5": [
+    {
+     "id": 402,
+     "label": "U+4E8B",
+     "label_raw": "U+4E8B",
+     "prob": 0.999997,
+     "logit": 21.947412
+    },
+    {
+     "id": 51,
+     "label": "U+1B082",
+     "label_raw": "U+1B082",
+     "prob": 0.0,
+     "logit": 6.936821
+    },
+    {
+     "id": 180,
+     "label": "U+3059",
+     "label_raw": "U+3059",
+     "prob": 0.0,
+     "logit": 4.770258
+    },
+    {
+     "id": 714,
+     "label": "U+5341",
+     "label_raw": "U+5341",
+     "prob": 0.0,
+     "logit": 4.483562
+    },
+    {
+     "id": 715,
+     "label": "U+5343",
+     "label_raw": "U+5343",
+     "prob": 0.0,
+     "logit": 4.313102
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0039",
+   "reference_label": "U+7B2C",
+   "top5": [
+    {
+     "id": 2760,
+     "label": "U+7B2C",
+     "label_raw": "U+7B2C",
+     "prob": 0.999905,
+     "logit": 18.816666
+    },
+    {
+     "id": 1357,
+     "label": "U+5F1F",
+     "label_raw": "U+5F1F",
+     "prob": 4.9e-05,
+     "logit": 8.887859
+    },
+    {
+     "id": 3653,
+     "label": "U+8CAB",
+     "label_raw": "U+8CAB",
+     "prob": 3e-06,
+     "logit": 6.195313
+    },
+    {
+     "id": 1862,
+     "label": "U+675F",
+     "label_raw": "U+675F",
+     "prob": 3e-06,
+     "logit": 6.064454
+    },
+    {
+     "id": 998,
+     "label": "U+58F0",
+     "label_raw": "U+58F0",
+     "prob": 1e-06,
+     "logit": 4.931873
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0040",
+   "reference_label": "U+4E09",
+   "top5": [
+    {
+     "id": 361,
+     "label": "U+4E09",
+     "label_raw": "U+4E09",
+     "prob": 1.0,
+     "logit": 22.961182
+    },
+    {
+     "id": 260,
+     "label": "U+30B7",
+     "label_raw": "U+30B7",
+     "prob": 0.0,
+     "logit": 6.11123
+    },
+    {
+     "id": 29,
+     "label": "U+1B048",
+     "label_raw": "U+1B048",
+     "prob": 0.0,
+     "logit": 5.51544
+    },
+    {
+     "id": 2735,
+     "label": "U+7ACB",
+     "label_raw": "U+7ACB",
+     "prob": 0.0,
+     "logit": 5.441547
+    },
+    {
+     "id": 164,
+     "label": "U+3048",
+     "label_raw": "U+3048",
+     "prob": 0.0,
+     "logit": 5.398539
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0041",
+   "reference_label": "U+1B097",
+   "top5": [
+    {
+     "id": 62,
+     "label": "U+1B097",
+     "label_raw": "U+1B097",
+     "prob": 0.999716,
+     "logit": 17.61689
+    },
+    {
+     "id": 2018,
+     "label": "U+69D8",
+     "label_raw": "U+69D8",
+     "prob": 9.1e-05,
+     "logit": 8.30734
+    },
+    {
+     "id": 200,
+     "label": "U+306D",
+     "label_raw": "U+306D",
+     "prob": 8.3e-05,
+     "logit": 8.221855
+    },
+    {
+     "id": 2692,
+     "label": "U+79F0",
+     "label_raw": "U+79F0",
+     "prob": 6e-06,
+     "logit": 5.650257
+    },
+    {
+     "id": 1556,
+     "label": "U+6240",
+     "label_raw": "U+6240",
+     "prob": 6e-06,
+     "logit": 5.620668
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0042",
+   "reference_label": "U+1B060",
+   "top5": [
+    {
+     "id": 41,
+     "label": "U+1B060",
+     "label_raw": "U+1B060",
+     "prob": 0.999995,
+     "logit": 20.347033
+    },
+    {
+     "id": 187,
+     "label": "U+3060",
+     "label_raw": "U+3060",
+     "prob": 1e-06,
+     "logit": 5.841536
+    },
+    {
+     "id": 104,
+     "label": "U+1B0FB",
+     "label_raw": "U+1B0FB",
+     "prob": 0.0,
+     "logit": 4.967027
+    },
+    {
+     "id": 176,
+     "label": "U+3055",
+     "label_raw": "U+3055",
+     "prob": 0.0,
+     "logit": 4.961236
+    },
+    {
+     "id": 40,
+     "label": "U+1B05F",
+     "label_raw": "U+1B05F",
+     "prob": 0.0,
+     "logit": 3.790339
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0043",
+   "reference_label": "U+1B082",
+   "top5": [
+    {
+     "id": 51,
+     "label": "U+1B082",
+     "label_raw": "U+1B082",
+     "prob": 0.999768,
+     "logit": 18.862854
+    },
+    {
+     "id": 50,
+     "label": "U+1B081",
+     "label_raw": "U+1B081",
+     "prob": 0.000195,
+     "logit": 10.318274
+    },
+    {
+     "id": 1180,
+     "label": "U+5BFA",
+     "label_raw": "U+5BFA",
+     "prob": 8e-06,
+     "logit": 7.09415
+    },
+    {
+     "id": 24,
+     "label": "U+1B037",
+     "label_raw": "U+1B037",
+     "prob": 3e-06,
+     "logit": 5.977333
+    },
+    {
+     "id": 197,
+     "label": "U+306A",
+     "label_raw": "U+306A",
+     "prob": 1e-06,
+     "logit": 5.028324
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0044",
+   "reference_label": "U+1B11A",
+   "top5": [
+    {
+     "id": 114,
+     "label": "U+1B11A",
+     "label_raw": "U+1B11A",
+     "prob": 0.999928,
+     "logit": 18.500446
+    },
+    {
+     "id": 1542,
+     "label": "U+6216",
+     "label_raw": "U+6216",
+     "prob": 1.3e-05,
+     "logit": 7.264973
+    },
+    {
+     "id": 3700,
+     "label": "U+8D8A",
+     "label_raw": "U+8D8A",
+     "prob": 8e-06,
+     "logit": 6.73479
+    },
+    {
+     "id": 236,
+     "label": "U+3092",
+     "label_raw": "U+3092",
+     "prob": 5e-06,
+     "logit": 6.201371
+    },
+    {
+     "id": 3169,
+     "label": "U+8302",
+     "label_raw": "U+8302",
+     "prob": 4e-06,
+     "logit": 6.169439
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0045",
+   "reference_label": "U+3044",
+   "top5": [
+    {
+     "id": 162,
+     "label": "U+3044",
+     "label_raw": "U+3044",
+     "prob": 0.999999,
+     "logit": 22.059361
+    },
+    {
+     "id": 310,
+     "label": "U+30EC",
+     "label_raw": "U+30EC",
+     "prob": 0.0,
+     "logit": 6.425749
+    },
+    {
+     "id": 283,
+     "label": "U+30CF",
+     "label_raw": "U+30CF",
+     "prob": 0.0,
+     "logit": 5.558896
+    },
+    {
+     "id": 266,
+     "label": "U+30BD",
+     "label_raw": "U+30BD",
+     "prob": 0.0,
+     "logit": 4.365714
+    },
+    {
+     "id": 205,
+     "label": "U+3072",
+     "label_raw": "U+3072",
+     "prob": 0.0,
+     "logit": 4.222907
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0046",
+   "reference_label": "U+305D",
+   "top5": [
+    {
+     "id": 184,
+     "label": "U+305D",
+     "label_raw": "U+305D",
+     "prob": 0.999967,
+     "logit": 21.164007
+    },
+    {
+     "id": 185,
+     "label": "U+305E",
+     "label_raw": "U+305E",
+     "prob": 3e-05,
+     "logit": 10.758227
+    },
+    {
+     "id": 193,
+     "label": "U+3066",
+     "label_raw": "U+3066",
+     "prob": 0.0,
+     "logit": 6.246097
+    },
+    {
+     "id": 37,
+     "label": "U+1B05A",
+     "label_raw": "U+1B05A",
+     "prob": 0.0,
+     "logit": 5.690629
+    },
+    {
+     "id": 186,
+     "label": "U+305F",
+     "label_raw": "U+305F",
+     "prob": 0.0,
+     "logit": 5.495372
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0047",
+   "reference_label": "U+1B0C0",
+   "top5": [
+    {
+     "id": 77,
+     "label": "U+1B0C0",
+     "label_raw": "U+1B0C0",
+     "prob": 0.999989,
+     "logit": 20.436855
+    },
+    {
+     "id": 215,
+     "label": "U+307C",
+     "label_raw": "U+307C",
+     "prob": 4e-06,
+     "logit": 7.94996
+    },
+    {
+     "id": 11,
+     "label": "U+1B015",
+     "label_raw": "U+1B015",
+     "prob": 0.0,
+     "logit": 5.872439
+    },
+    {
+     "id": 236,
+     "label": "U+3092",
+     "label_raw": "U+3092",
+     "prob": 0.0,
+     "logit": 5.670565
+    },
+    {
+     "id": 1007,
+     "label": "U+5916",
+     "label_raw": "U+5916",
+     "prob": 0.0,
+     "logit": 5.531166
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0048",
+   "reference_label": "U+1B08C",
+   "top5": [
+    {
+     "id": 56,
+     "label": "U+1B08C",
+     "label_raw": "U+1B08C",
+     "prob": 1.0,
+     "logit": 25.325987
+    },
+    {
+     "id": 57,
+     "label": "U+1B08D",
+     "label_raw": "U+1B08D",
+     "prob": 0.0,
+     "logit": 6.176974
+    },
+    {
+     "id": 2428,
+     "label": "U+738B",
+     "label_raw": "U+738B",
+     "prob": 0.0,
+     "logit": 5.22222
+    },
+    {
+     "id": 54,
+     "label": "U+1B087",
+     "label_raw": "U+1B087",
+     "prob": 0.0,
+     "logit": 5.039379
+    },
+    {
+     "id": 112,
+     "label": "U+1B10C",
+     "label_raw": "U+1B10C",
+     "prob": 0.0,
+     "logit": 4.995286
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0049",
+   "reference_label": "U+1B060",
+   "top5": [
+    {
+     "id": 41,
+     "label": "U+1B060",
+     "label_raw": "U+1B060",
+     "prob": 0.999995,
+     "logit": 20.541712
+    },
+    {
+     "id": 104,
+     "label": "U+1B0FB",
+     "label_raw": "U+1B0FB",
+     "prob": 1e-06,
+     "logit": 6.102185
+    },
+    {
+     "id": 238,
+     "label": "U+309D",
+     "label_raw": "U+309D",
+     "prob": 0.0,
+     "logit": 5.806264
+    },
+    {
+     "id": 170,
+     "label": "U+304F",
+     "label_raw": "U+304F",
+     "prob": 0.0,
+     "logit": 5.680618
+    },
+    {
+     "id": 187,
+     "label": "U+3060",
+     "label_raw": "U+3060",
+     "prob": 0.0,
+     "logit": 5.563583
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0050",
+   "reference_label": "U+3064",
+   "top5": [
+    {
+     "id": 191,
+     "label": "U+3064",
+     "label_raw": "U+3064",
+     "prob": 0.9961,
+     "logit": 15.536415
+    },
+    {
+     "id": 190,
+     "label": "U+3063",
+     "label_raw": "U+3063",
+     "prob": 0.002472,
+     "logit": 9.537632
+    },
+    {
+     "id": 232,
+     "label": "U+308D",
+     "label_raw": "U+308D",
+     "prob": 0.000495,
+     "logit": 7.929956
+    },
+    {
+     "id": 192,
+     "label": "U+3065",
+     "label_raw": "U+3065",
+     "prob": 0.000135,
+     "logit": 6.633142
+    },
+    {
+     "id": 237,
+     "label": "U+3093",
+     "label_raw": "U+3093",
+     "prob": 4.4e-05,
+     "logit": 5.517167
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0051",
+   "reference_label": "U+1B092",
+   "top5": [
+    {
+     "id": 61,
+     "label": "U+1B094",
+     "label_raw": "U+1B094",
+     "prob": 0.996333,
+     "logit": 16.953266
+    },
+    {
+     "id": 60,
+     "label": "U+1B092",
+     "label_raw": "U+1B092",
+     "prob": 0.003289,
+     "logit": 11.239841
+    },
+    {
+     "id": 200,
+     "label": "U+306D",
+     "label_raw": "U+306D",
+     "prob": 0.000141,
+     "logit": 8.086794
+    },
+    {
+     "id": 199,
+     "label": "U+306C",
+     "label_raw": "U+306C",
+     "prob": 2.3e-05,
+     "logit": 6.283762
+    },
+    {
+     "id": 598,
+     "label": "U+5176",
+     "label_raw": "U+5176",
+     "prob": 7e-06,
+     "logit": 5.110619
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0052",
+   "reference_label": "U+7D66",
+   "top5": [
+    {
+     "id": 2893,
+     "label": "U+7D66",
+     "label_raw": "U+7D66",
+     "prob": 0.999999,
+     "logit": 22.857141
+    },
+    {
+     "id": 2427,
+     "label": "U+7389",
+     "label_raw": "U+7389",
+     "prob": 1e-06,
+     "logit": 8.732327
+    },
+    {
+     "id": 89,
+     "label": "U+1B0DA",
+     "label_raw": "U+1B0DA",
+     "prob": 0.0,
+     "logit": 6.414614
+    },
+    {
+     "id": 81,
+     "label": "U+1B0C6",
+     "label_raw": "U+1B0C6",
+     "prob": 0.0,
+     "logit": 5.419331
+    },
+    {
+     "id": 40,
+     "label": "U+1B05F",
+     "label_raw": "U+1B05F",
+     "prob": 0.0,
+     "logit": 4.538847
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0053",
+   "reference_label": "U+3075",
+   "top5": [
+    {
+     "id": 208,
+     "label": "U+3075",
+     "label_raw": "U+3075",
+     "prob": 0.999995,
+     "logit": 22.245543
+    },
+    {
+     "id": 209,
+     "label": "U+3076",
+     "label_raw": "U+3076",
+     "prob": 4e-06,
+     "logit": 9.799959
+    },
+    {
+     "id": 55,
+     "label": "U+1B08B",
+     "label_raw": "U+1B08B",
+     "prob": 0.0,
+     "logit": 7.274544
+    },
+    {
+     "id": 364,
+     "label": "U+4E0D",
+     "label_raw": "U+4E0D",
+     "prob": 0.0,
+     "logit": 6.327363
+    },
+    {
+     "id": 74,
+     "label": "U+1B0B2",
+     "label_raw": "U+1B0B2",
+     "prob": 0.0,
+     "logit": 5.361088
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0054",
+   "reference_label": "U+4E0D",
+   "top5": [
+    {
+     "id": 364,
+     "label": "U+4E0D",
+     "label_raw": "U+4E0D",
+     "prob": 0.999901,
+     "logit": 18.192245
+    },
+    {
+     "id": 208,
+     "label": "U+3075",
+     "label_raw": "U+3075",
+     "prob": 2e-05,
+     "logit": 7.35367
+    },
+    {
+     "id": 11,
+     "label": "U+1B015",
+     "label_raw": "U+1B015",
+     "prob": 7e-06,
+     "logit": 6.377764
+    },
+    {
+     "id": 744,
+     "label": "U+539F",
+     "label_raw": "U+539F",
+     "prob": 4e-06,
+     "logit": 5.831363
+    },
+    {
+     "id": 1841,
+     "label": "U+6728",
+     "label_raw": "U+6728",
+     "prob": 3e-06,
+     "logit": 5.408517
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0055",
+   "reference_label": "U+5BE9",
+   "top5": [
+    {
+     "id": 1176,
+     "label": "U+5BE9",
+     "label_raw": "U+5BE9",
+     "prob": 0.970056,
+     "logit": 13.0856
+    },
+    {
+     "id": 1810,
+     "label": "U+66AE",
+     "label_raw": "U+66AE",
+     "prob": 0.005413,
+     "logit": 7.896989
+    },
+    {
+     "id": 1052,
+     "label": "U+59BB",
+     "label_raw": "U+59BB",
+     "prob": 0.002904,
+     "logit": 7.274474
+    },
+    {
+     "id": 1061,
+     "label": "U+59DC",
+     "label_raw": "U+59DC",
+     "prob": 0.000942,
+     "logit": 6.148142
+    },
+    {
+     "id": 2498,
+     "label": "U+756A",
+     "label_raw": "U+756A",
+     "prob": 0.000788,
+     "logit": 5.969504
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0056",
+   "reference_label": "U+1B09C",
+   "top5": [
+    {
+     "id": 66,
+     "label": "U+1B09C",
+     "label_raw": "U+1B09C",
+     "prob": 0.999998,
+     "logit": 22.101482
+    },
+    {
+     "id": 26,
+     "label": "U+1B03E",
+     "label_raw": "U+1B03E",
+     "prob": 0.0,
+     "logit": 6.123184
+    },
+    {
+     "id": 2113,
+     "label": "U+6C34",
+     "label_raw": "U+6C34",
+     "prob": 0.0,
+     "logit": 5.435375
+    },
+    {
+     "id": 172,
+     "label": "U+3051",
+     "label_raw": "U+3051",
+     "prob": 0.0,
+     "logit": 5.434501
+    },
+    {
+     "id": 220,
+     "label": "U+3081",
+     "label_raw": "U+3081",
+     "prob": 0.0,
+     "logit": 5.178058
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0057",
+   "reference_label": "U+4E8B",
+   "top5": [
+    {
+     "id": 402,
+     "label": "U+4E8B",
+     "label_raw": "U+4E8B",
+     "prob": 0.999995,
+     "logit": 20.85598
+    },
+    {
+     "id": 51,
+     "label": "U+1B082",
+     "label_raw": "U+1B082",
+     "prob": 2e-06,
+     "logit": 7.537978
+    },
+    {
+     "id": 230,
+     "label": "U+308B",
+     "label_raw": "U+308B",
+     "prob": 0.0,
+     "logit": 5.274529
+    },
+    {
+     "id": 47,
+     "label": "U+1B074",
+     "label_raw": "U+1B074",
+     "prob": 0.0,
+     "logit": 5.181436
+    },
+    {
+     "id": 172,
+     "label": "U+3051",
+     "label_raw": "U+3051",
+     "prob": 0.0,
+     "logit": 5.068327
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0058",
+   "reference_label": "U+7B2C",
+   "top5": [
+    {
+     "id": 2760,
+     "label": "U+7B2C",
+     "label_raw": "U+7B2C",
+     "prob": 0.999756,
+     "logit": 19.203058
+    },
+    {
+     "id": 1357,
+     "label": "U+5F1F",
+     "label_raw": "U+5F1F",
+     "prob": 0.000209,
+     "logit": 10.729605
+    },
+    {
+     "id": 1862,
+     "label": "U+675F",
+     "label_raw": "U+675F",
+     "prob": 5e-06,
+     "logit": 7.064705
+    },
+    {
+     "id": 3172,
+     "label": "U+8305",
+     "label_raw": "U+8305",
+     "prob": 1e-06,
+     "logit": 5.438743
+    },
+    {
+     "id": 2481,
+     "label": "U+7533",
+     "label_raw": "U+7533",
+     "prob": 1e-06,
+     "logit": 4.742956
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0059",
+   "reference_label": "U+56DB",
+   "top5": [
+    {
+     "id": 921,
+     "label": "U+56DB",
+     "label_raw": "U+56DB",
+     "prob": 0.999992,
+     "logit": 21.215771
+    },
+    {
+     "id": 2478,
+     "label": "U+7530",
+     "label_raw": "U+7530",
+     "prob": 2e-06,
+     "logit": 7.902071
+    },
+    {
+     "id": 922,
+     "label": "U+56DE",
+     "label_raw": "U+56DE",
+     "prob": 1e-06,
+     "logit": 7.288836
+    },
+    {
+     "id": 1398,
+     "label": "U+5FA1",
+     "label_raw": "U+5FA1",
+     "prob": 0.0,
+     "logit": 6.555222
+    },
+    {
+     "id": 1767,
+     "label": "U+65E7",
+     "label_raw": "U+65E7",
+     "prob": 0.0,
+     "logit": 6.534416
+    }
+   ]
+  },
+  {
+   "crop_id": "200021086/200021086_00002_2/C0060",
+   "reference_label": "U+3044",
+   "top5": [
+    {
+     "id": 162,
+     "label": "U+3044",
+     "label_raw": "U+3044",
+     "prob": 0.999996,
+     "logit": 20.690088
+    },
+    {
+     "id": 115,
+     "label": "U+1B11C",
+     "label_raw": "U+1B11C",
+     "prob": 0.0,
+     "logit": 5.745389
+    },
+    {
+     "id": 310,
+     "label": "U+30EC",
+     "label_raw": "U+30EC",
+     "prob": 0.0,
+     "logit": 5.541271
+    },
+    {
+     "id": 283,
+     "label": "U+30CF",
+     "label_raw": "U+30CF",
+     "prob": 0.0,
+     "logit": 5.437446
+    },
+    {
+     "id": 168,
+     "label": "U+304D",
+     "label_raw": "U+304D",
+     "prob": 0.0,
+     "logit": 4.057635
+    }
+   ]
+  }
+ ]
+}

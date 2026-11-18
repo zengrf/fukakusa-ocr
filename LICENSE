@@ -1,0 +1,18 @@
+Fukakusa OCR — licence statement
+
+1. Model weights, label maps and derived tables (the vit-v2 and vit-v1 model.safetensors and config.json files, the label files labels-jibo-v2.tar.gz,
+   labels/*.json, labels/variants.csv, labels/class_prior.json): Creative Commons Attribution-ShareAlike 4.0 International
+   (CC BY-SA 4.0), https://creativecommons.org/licenses/by-sa/4.0/. They are derived from the CODH Kuzushiji dataset
+   (人文学オープンデータ共同利用センター / 国文学研究資料館, http://codh.rois.ac.jp/char-shape/, CC BY-SA 4.0), whose attribution
+   terms carry over. When you redistribute or adapt them, credit "Center for Open Data in the Humanities (CODH), Kuzushiji
+   dataset" and "Atkins, Chau and Zeng, Fukakusa (University of Washington)".
+2. Detector weights (yolo11m-kuzu-v6.pt): fine-tuned from Ultralytics YOLO11m, which is released under AGPL-3.0; the fine-tuned
+   weights are distributed under AGPL-3.0 as well, https://www.gnu.org/licenses/agpl-3.0.html. Use the classifier alone if the
+   AGPL terms do not suit your project.
+2b. Cascade R-CNN weights (rcnn-res101-5-10.pth, mmdetection 3.3.0 checkpoint): CC BY-SA 4.0 as under item 1; the mmdetection code it
+   requires is Apache-2.0.
+3. Example images under examples/ and fixtures/crops/: pages of the CODH Kuzushiji dataset, CC BY-SA 4.0, with the manuscript identifier and the
+   CODH page URL recorded in examples/README.md.
+4. Source code in fukakusa_ocr/, training/, evaluation/ and scripts/: Copyright (c) 2025–2026 Paul S. Atkins, Herman Chau, Michael R. Zeng. Released under the
+   same CC BY-SA 4.0 terms as the weights so that the package can be redistributed as one unit. The authors may re-license the
+   code at a later date; this statement applies to this release.

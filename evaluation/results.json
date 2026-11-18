@@ -1,0 +1,85 @@
+{
+ "test_list": "evaluation/test_list.tsv.gz (108,633 crops)",
+ "training_preprocessing_fp16_autocast_and_fp32": {
+  "vit-v2-epoch24": {
+   "n": 108633,
+   "acc_fp16_autocast": 0.9693555365312566,
+   "acc_fp32": 0.969364741837195,
+   "correct_fp16": 105304,
+   "correct_fp32": 105305,
+   "fp16_vs_fp32_disagreements": 4
+  },
+  "vit-v2-epoch06": {
+   "n": 108633,
+   "acc_fp16_autocast": 0.9651947382471256,
+   "acc_fp32": 0.9652131488590023,
+   "correct_fp16": 104852,
+   "correct_fp32": 104854,
+   "fp16_vs_fp32_disagreements": 7
+  }
+ },
+ "package_preprocessing_cuda_half_and_fp32": {
+  "vit-v2-epoch24": {
+   "n": 108633,
+   "acc_package_cuda_half": 0.9693555365312566,
+   "correct_package_cuda_half": 105304,
+   "acc_package_fp32": 0.969364741837195,
+   "correct_package_fp32": 105305,
+   "half_vs_fp32_disagreements": 7
+  },
+  "vit-v2-epoch06": {
+   "n": 108633,
+   "acc_package_cuda_half": 0.9652039435530639,
+   "correct_package_cuda_half": 104853,
+   "acc_package_fp32": 0.9652223541649406,
+   "correct_package_fp32": 104855,
+   "half_vs_fp32_disagreements": 7
+  }
+ },
+ "run_logged_eval_accuracy": {
+  "vit-v2-epoch24": 0.9693555365312566,
+  "vit-v2-epoch06": 0.9651947382471256
+ },
+ "measured": "2026-11-07, Tesla T4",
+ "logit_adjustment_package_fp32": {
+  "definition": "argmax(logits - tau * log prior), prior = labels/class_prior.json (number of labelled crops per class, 1,086,287 crops; the counts include the hold-out crops' classes but carry no per-crop information)",
+  "preprocessing": "package (ViTImageProcessor), float32, CUDA",
+  "vit-v2-epoch24": {
+   "0.0": {
+    "correct": 105305,
+    "accuracy": 0.969364741837195
+   },
+   "0.25": {
+    "correct": 105369,
+    "accuracy": 0.9699538814172489
+   },
+   "0.5": {
+    "correct": 105376,
+    "accuracy": 0.9700183185588173
+   },
+   "1.0": {
+    "correct": 105333,
+    "accuracy": 0.9696224904034686
+   }
+  },
+  "vit-v2-epoch06": {
+   "0.0": {
+    "correct": 104855,
+    "accuracy": 0.9652223541649406
+   },
+   "0.25": {
+    "correct": 104932,
+    "accuracy": 0.965931162722193
+   },
+   "0.5": {
+    "correct": 104875,
+    "accuracy": 0.9654064602837076
+   },
+   "1.0": {
+    "correct": 104353,
+    "accuracy": 0.9606012905838925
+   }
+  },
+  "note": "tau = 0 equals package_preprocessing fp32 above; the project's web analyzer runs vit-v2-epoch06 with tau = 0.25"
+ }
+}
